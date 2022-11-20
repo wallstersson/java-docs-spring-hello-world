@@ -22,7 +22,7 @@ private static TelemetryClient telemetry = new TelemetryClient();
 
 	@RequestMapping("/")
 	String sayHello() {
-		telemetry.trackEvent("Requested Hello Azure 1");
-		return "Hello Azure 1!";
+		telemetry.trackEvent("Requested Hello Azure 2");
+		return "Hello Azure 2!";
 	}
 }
